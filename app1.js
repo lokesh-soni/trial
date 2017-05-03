@@ -1,0 +1,1 @@
+var Emitter = require('events');var emtr = new Emitter();emtr.on('greet',function() {	console.log('pehla message');});emtr.on('greet',function() {	console.log('dusra message');});console.log('kaand kare?');emtr.emit('greet');
